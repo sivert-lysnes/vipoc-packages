@@ -1,5 +1,6 @@
-import vipoc.gpio
+import sys
+sys.path.append("C:/Users/Student/Documents/Code/Undervisning/vipoc-packages/site-packages")
 
-vipoc.gpio.on(11)
+import vipoc.motor
 
-vipoc.gpio.set_dir(11, vipoc.gpio.OUT)
+vipoc.motor.on(9)
