@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "process",
+            "isBuildCommand": true,
+            "label": "Upload libs",
+            "command": "scp",
+            "args": [
+                "-r",
+                "${workspaceFolder}/site-packages/*",
+                "root@192.168.3.1:/usr/lib/python3.6/site-packages"
+            ]
+        }
+    ]
+}
