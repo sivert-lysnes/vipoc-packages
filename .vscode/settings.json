@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
         "./site-packages"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
